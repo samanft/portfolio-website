@@ -5,3 +5,7 @@
 body {
     background-color: #1F2937;
 }
+
+h1, p {
+    color: white;
+}
