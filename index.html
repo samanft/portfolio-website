@@ -9,6 +9,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.min.css"
     />
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -74,18 +78,17 @@
     <div id="fullpage">
       <div class="section flex flex-col justify-center">
         <div
-          class="flex flex-col items-center mx-auto bg-gray-900 bg-opacity-70 w-full xl:w-5/6 2xl:w-1/3 py-5 rounded-lg"
+          class="flex flex-col items-center mx-auto bg-gray-900 bg-opacity-90 w-full xl:w-1/2 3xl:w-1/3 py-5 rounded-lg"
         >
           <h1
-            class="mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl text-white"
+            class="mb-4 text-4xl font-extrabold leading-none tracking-tight lg:text-5xl xl:text-6l text-white"
             id="element"
           ></h1>
           <p
             class="mb-6 text-lg font-normal lg:text-xl text-gray-400 text-center w-8/12"
           >
-            I'm a front end developer and I love to make websites! I specialize
-            in Tailwind and Svelte. I also know a bit of PHP and Python. I'm
-            currently learning React and Vue.js.
+            I'm a front end developer and I love creating web apps! I specialize
+            in Tailwind and Svelte, alongside various other front-end frameworks. I also have cursory knowledge on PHP, Python and SQL!
           </p>
           <img
             src="blank-pfp.webp"
@@ -95,7 +98,9 @@
         </div>
       </div>
       <div class="section flex flex-col justify-center">
-        <div class="flex flex-col items-center bg-gray-900 bg-opacity-70 w-1/3 py-5 mx-auto">
+        <div
+          class="flex flex-col items-center bg-gray-900 bg-opacity-90 w-full xl:w-2/3 3xl:w-1/3 py-5 mx-auto"
+        >
           <h1
             class="mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl text-white"
           >
@@ -110,11 +115,58 @@
             also have experience with various other front-end technologies and
             frameworks, such as Bootstrap, Bulma, React and Vue.js. I also have
             basic knowledge of PHP and SQL, and am always open to learning
-            something new. I also work well in group settings, and have
-            experience with the SCRUM method.
+            something new. I also have lots of experience in group settings, and
+            have even won a school coding competition!
           </p>
         </div>
       </div>
+      <div class="section flex flex-col justify-center overflow-visible">
+        <div
+          class="flex flex-col items-center bg-gray-900 bg-opacity-90 w-full xl:w-1/2 3xl:w-1/3 py-5 rounded-lg mx-auto"
+        >
+                <h1
+            class="mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl text-white"
+          >
+            My Soft Skills
+          </h1>
+          <ul class="list-disc list-inside text-white">
+            <li class="relative group">
+              <span
+              data-tooltip-target="tooltip-planning"
+              class="hover:underline cursor-pointer"
+            >
+              Planning
+            </span>
+              <div
+                id="tooltip-planning"
+                role="tooltip"
+                class="w-96 absolute z-10 invisible inline-block px-4 py-3 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700"
+              >
+                I excel in listening to my clients and understanding their needs, desires and wants, planning accordingly with deadlines and other constraints in mind.
+                <div class="tooltip-arrow" data-popper-arrow></div>
+              </div>
+            </li>
+            <li class="relative group">
+              <span
+                data-tooltip-target="tooltip-teamwork"
+                class="hover:underline cursor-pointer"
+              >
+                Teamwork
+              </span>
+              <div
+                id="tooltip-teamwork"
+                role="tooltip"
+                class="w-96 absolute z-10 invisible inline-block px-4 py-3 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700"
+              >
+                I have lots of experience with working in group settings, and have even won a school coding competition!
+                <div class="tooltip-arrow" data-popper-arrow></div>
+              </div>
+            </li>
+            <!-- Add more list items for other skills -->
+          </ul>
+        </div>
+      </div>
+
       <div class="section">
         <!-- <h1
           class="mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl text-white text-center"
@@ -122,49 +174,97 @@
           My projects
         </h1> -->
         <div class="slide" data-anchor="slide1">
-          <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl m-3">
+          <div
+            class="max-w-md mx-auto bg-gray-900 bg-opacity-90 rounded-xl shadow-md overflow-hidden md:max-w-2xl m-3"
+          >
             <div class="md:flex">
               <div class="md:flex-shrink-0">
-                <img class="h-48 w-full object-cover md:w-48" src="download (7).png" alt="Pokedex preview">
+                <img
+                  class="h-48 w-full object-cover md:w-48"
+                  src="download (7).png"
+                  alt="Pokedex preview"
+                />
               </div>
               <div class="p-8">
-                <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Pokedex</div>
-                <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">View Project</a>
-                <p class="mt-2 text-gray-500">Your description of the Pokedex project goes here.</p>
+                <div
+                  class="uppercase tracking-wide text-sm text-indigo-400 font-semibold"
+                >
+                  Pokedex
+                </div>
+                <a
+                  href="#"
+                  class="block mt-1 text-lg leading-tight font-medium text-white hover:underline"
+                  >View Project</a
+                >
+                <p class="mt-2 text-gray-400">
+                  Your description of the Pokedex project goes here.
+                </p>
               </div>
             </div>
           </div>
         </div>
         <div class="slide" data-anchor="slide2">
-          <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl m-3">
+          <div
+            class="max-w-md mx-auto bg-gray-900 bg-opacity-90 rounded-xl shadow-md overflow-hidden md:max-w-2xl m-3"
+          >
             <div class="md:flex">
               <div class="md:flex-shrink-0">
-                <img class="h-48 w-full object-cover md:w-48" src="download (8).png" alt="Pokedex preview">
+                <img
+                  class="h-48 w-full object-cover md:w-48"
+                  src="download (8).png"
+                  alt="Pokedex preview"
+                />
               </div>
               <div class="p-8">
-                <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">SpotiStats</div>
-                <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">View Project</a>
-                <p class="mt-2 text-gray-500">Your description of the Pokedex project goes here.</p>
+                <div
+                  class="uppercase tracking-wide text-sm text-indigo-300 font-semibold"
+                >
+                  SpotiStats
+                </div>
+                <a
+                  href="#"
+                  class="block mt-1 text-lg leading-tight font-medium text-white hover:underline"
+                  >View Project</a
+                >
+                <p class="mt-2 text-gray-300">
+                  Your description of the Pokedex project goes here.
+                </p>
               </div>
             </div>
           </div>
         </div>
         <div class="slide" data-anchor="slide3">
-          <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl m-3">
+          <div
+            class="max-w-md mx-auto bg-gray-900 bg-opacity-90 rounded-xl shadow-md overflow-hidden md:max-w-2xl m-3"
+          >
             <div class="md:flex">
               <div class="md:flex-shrink-0">
-                <img class="h-48 w-full object-cover md:w-48" src="Video-Game-Controller-Icon.svg.png" alt="Pokedex preview">
+                <img
+                  class="h-48 w-full object-cover md:w-48"
+                  src="Video-Game-Controller-Icon.svg.png"
+                  alt="Pokedex preview"
+                />
               </div>
               <div class="p-8">
-                <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Bit Gaming</div>
-                <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">View Project</a>
-                <p class="mt-2 text-gray-500">Your description of the Pokedex project goes here.</p>
+                <div
+                  class="uppercase tracking-wide text-sm text-indigo-300 font-semibold"
+                >
+                  Bit Gaming
+                </div>
+                <a
+                  href="#"
+                  class="block mt-1 text-lg leading-tight font-medium text-white hover:underline"
+                  >View Project</a
+                >
+                <p class="mt-2 text-gray-300">
+                  Your description of the Pokedex project goes here.
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-                <!-- <div
+      <!-- <div
             class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
           >
             <a href="#">
@@ -309,5 +409,7 @@
       };
       magicMouse(options);
     </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
   </body>
 </html>
